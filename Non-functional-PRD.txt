@@ -1,0 +1,188 @@
+1. System Performance
+
+Screen Definition:
+User Dashboard.  Admin Dashboard.  Tournament Browsing Page.  Live Match Monitoring Screen.  
+
+User Story:
+As a stakeholder, I want the system to be reliable and scalable.  
+As a user, I want the system to be highly responsive for real-time tracking.  
+
+Acceptance Criteria:
+Load the user and admin dashboards within 3 seconds.  
+Process login and authentication requests within 2 seconds.  
+Ensure tournament browsing and registration pages respond within 3 seconds.  
+Synchronize live match scores across all users instantly without manual refresh.  
+Support concurrent access by multiple users without performance degradation.  
+Reflect payment status updates in real time. 
+
+
+
+2. Security Requirements
+
+Screen Definition:
+Login Page.  Profile Setup Page.  Admin Dashboard.  Payment Gateway Interface.  
+
+User Story:
+As a stakeholder, I want secure authentication and data integrity.  
+As a user, I want my personal and payment data to be protected.  
+
+Acceptance Criteria:
+Enforce OAuth 2.0 authentication for all student and admin logins.  
+Restrict dashboard access based on validated user roles and permissions.  
+Transmit all sensitive data using HTTPS encryption.  
+Prevent SQL injection by using parameterized queries and stored procedures.  
+Securely store and protect user passwords and session tokens.  
+Implement backend validation to prevent duplicate payment submissions.  
+Log all critical security-related actions for system auditing.  
+
+
+
+
+3. Usability Requirements
+
+
+Screen Definition:
+
+Student Dashboard.  
+
+Admin Dashboard.  
+
+Tournament Registration Forms.  
+
+Live Match Scoreboard.  
+
+
+
+User Story:
+
+As a stakeholder, I want a user-friendly interface.  
+
+As a student, I want an intuitive experience to register for games and track achievements.  
+
+
+
+Acceptance Criteria:
+
+Provide a simple and intuitive user interface for players and admins.  
+
+Label navigation menus clearly and maintain consistency across all pages.  
+
+Display clear and understandable system messages and error alerts.  
+
+Ensure the interface is responsive for different screen sizes.  
+
+Support access via standard web browsers without requiring additional plugins.  
+
+Implement real-time validation for phone numbers and blood group formats.
+
+
+
+
+4. Reliability & Availability Requirements
+
+
+
+Screen Definition:
+
+System-wide (All modules).  
+
+Database Management Interface.  
+
+Maintenance/Downtime Notification Page.  
+
+
+
+
+User Story:
+
+As a stakeholder, I want the system to be reliable and always accessible.  
+
+As a user, I want my data to be stored safely and protected from loss.  
+
+
+
+
+Acceptance Criteria:
+
+Maintain system availability 24/7 except during scheduled maintenance.  
+
+Store tournament, registration, and payment data reliably in the database.  
+
+Ensure automatic recovery from minor system failures.  
+
+Prevent any loss or unauthorized alteration of completed tournament data.  
+
+Display appropriate status messages to users during any system downtime.
+
+
+
+5. Scalability Requirements
+
+
+
+Screen Definition:
+
+Admin Dashboard.  
+
+Database Management Panel.  
+
+Hall of Fame/Archive Module.  
+
+
+
+User Story:
+
+As a stakeholder, I want the system to handle a growing number of participants and data points.  
+
+As a developer, I want an architecture that supports the easy addition of new features.  
+
+
+
+Acceptance Criteria:
+
+Support an increasing number of tournaments and users without performance loss.  
+
+Manage the growth of historical tournament data in the database efficiently.  
+
+Design the system architecture to allow for the easy addition of new modules.  
+
+Scale server resources automatically as usage and traffic grow.  
+
+Maintain stable system performance under increased concurrent load.
+
+
+
+
+6. Maintainability Requirements
+
+
+
+Screen Definition:
+
+Backend Codebase Structure.  
+
+System Error Logs.  
+
+Database Management Interface.  
+
+
+
+User Story:
+
+As a stakeholder, I want a well-structured system for easy updates.  
+
+As a developer, I want clear logs to assist in debugging and maintenance.  
+
+
+
+Acceptance Criteria:
+
+Follow a modular and well-structured system architecture.  
+
+Allow developers to update modules without affecting other system components.  
+
+Utilize system logs to assist in efficient debugging and maintenance tasks.  
+
+Support regular system updates with minimal downtime for users.  
+
+Ensure all code and database changes are manageable and properly documented.
